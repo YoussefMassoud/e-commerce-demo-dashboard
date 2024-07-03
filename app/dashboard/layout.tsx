@@ -24,6 +24,9 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
           </SheetContent>
         </Sheet>
       </header>
+      <main className="my-5 ">
+        {children}
+      </main>
     </div>
   );
 }
